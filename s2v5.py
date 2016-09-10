@@ -38,3 +38,8 @@ print ("\n Max price = {} \n\n Min price = {}".format(
 		find_max_min(data_from_csv[1:], 2, "max"),
 		find_max_min(data_from_csv[1:], 2, "min")
 		))
+
+price = data_from_numpy['priceLabel']
+price_in_float = [float(x) for x in price]
+numpy_max = numpy.amax(price_in_float)
+numpy_min = numpy.amin(price_in_float)
