@@ -4,7 +4,7 @@ from collections import Counter
 print("\n s5v2: ")
 
 #create a bar chart of prices and numebrs of ties
-
+'''
 def plot_all_bars(prices_in_float, exported_figure_filename):
 	prices = list(map(int, prices_in_float))
 	X = numpy.arange(len(prices))
@@ -61,3 +61,4 @@ def group_prices_by_range(prices_in_float):
 
 price_groups = group_prices_by_range(price_in_float)
 create_bar_chart(price_groups, "_charts/s5-price_in_groups.png") 
+'''
